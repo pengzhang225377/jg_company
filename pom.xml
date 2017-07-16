@@ -7,7 +7,7 @@
 	<groupId>com.jg2b</groupId>
 	<artifactId>jg-h5-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<dependencies>
 				<dependency>
     <groupId>org.apache.commons</groupId>
