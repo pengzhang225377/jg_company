@@ -29,11 +29,8 @@
 			</plugin>
 			 <plugin> 
               <artifactId>maven-compiler-plugin</artifactId> 
-              <configuration> 
-		          <source>1.8</source> 
-                  <source>1.6</source> 
-                  <target>1.6</target> 
-		          <source>1.8</source> 
+              <configuration>      
+		  <source>1.8</source> 
                   <target>1.8</target> 
                   <source>1.9</source> 
                   <target>1.9</target>
@@ -41,8 +38,6 @@
                   <compilerArguments> 
                    <extdirs>src\main\webapp\WEB-INF\lib</extdirs> 
                  </compilerArguments> 
-		      
-		      
               </configuration> 
             </plugin> 
 		</plugins> 
