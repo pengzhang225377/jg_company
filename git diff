@@ -1,0 +1,25 @@
+[1mdiff --cc pom.xml[m
+[1mindex ebdcc4f,e7afcff..0000000[m
+[1m--- a/pom.xml[m
+[1m+++ b/pom.xml[m
+[36m@@@ -30,16 -30,16 +30,19 @@@[m
+  			 <plugin> [m
+                <artifactId>maven-compiler-plugin</artifactId> [m
+                <configuration> [m
+[32m++[m
+[32m +                  <source>1.9</source> [m
+[32m +                  <target>1.9</target> [m
+[32m+                   <source>1.6</source> [m
+[32m+                   <target>1.6</target>[m
+[32m+ 		          <source>1.8</source> [m
+[32m +                  <source>1.8</source>[m
+                    <target>1.8</target> [m
+                    <encoding>UTF-8</encoding> [m
+                    <compilerArguments> [m
+                     <extdirs>src\main\webapp\WEB-INF\lib</extdirs> [m
+                   </compilerArguments> [m
+  		    [m
+[31m--		      [m
+                </configuration> [m
+              </plugin> [m
+  		</plugins> [m
